@@ -22,6 +22,7 @@ if (isPost()) {
     $date_echeance = !empty($_POST['date_echeance']) ? $_POST['date_echeance'] : null;
     $notes = cleanInput($_POST['notes']);
     
+
     if ($locataire_id && $montant > 0 && $type_paiement && $mode_paiement && $date_paiement) {
         $stmt = $pdo->prepare("
             INSERT INTO paiements (locataire_id, propriete_id, montant, type_paiement, mode_paiement, reference_transaction, date_paiement, date_echeance, notes)
@@ -30,14 +31,24 @@ if (isPost()) {
         $stmt->execute([
             $locataire_id, $propriete_id, $montant, $type_paiement, $mode_paiement, $reference_transaction, $date_paiement, $date_echeance, $notes
         ]);
-        
+
+        // Récupérer l'ID du paiement inséré
+        $paiement_id = $pdo->lastInsertId();
+
+        // Générer la quittance avec token et QR Code
+        require_once 'includes/functions.php';
+        $token = generateToken();
+        $numero_quittance = 'QTC-' . date('Ymd') . '-' . str_pad($paiement_id, 4, '0', STR_PAD_LEFT);
+
+        $stmtQuittance = $pdo->prepare("INSERT INTO quittances (paiement_id, numero_quittance, token_verification) VALUES (?, ?, ?)");
+        $stmtQuittance->execute([$paiement_id, $numero_quittance, $token]);
+
         redirect('paiements.php');
     } else {
         $message = "Veuillez remplir les champs obligatoires";
         $messageType = 'danger';
     }
 }
-
 ob_start();
 ?>
 
