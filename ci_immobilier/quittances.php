@@ -60,11 +60,11 @@ ob_start();
                         </td>
                         <td class="text-success fw-bold"><?= formatFCFA($q['montant']) ?></td>
                         <td>
-                            <div class="btn-group btn-group-sm">
-                                <a href="quittance.php?id=<?= $q['id'] ?>" class="btn btn-outline-primary" target="_blank">
+                            <div class="btn-group btn-group-sm" role="group">
+                                <a href="quittance.php?id=<?= $q['id'] ?>" class="btn btn-outline-primary" title="Voir quittance">
                                     <i class="bi bi-eye"></i> Voir
                                 </a>
-                                <a href="quittance.php?id=<?= $q['id'] ?>&print=1" class="btn btn-outline-success" target="_blank">
+                                <a href="quittance.php?id=<?= $q['id'] ?>&print=1" class="btn btn-outline-success" title="Imprimer quittance" target="_blank">
                                     <i class="bi bi-printer"></i> Imprimer
                                 </a>
                             </div>

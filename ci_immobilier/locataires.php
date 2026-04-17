@@ -31,6 +31,50 @@ ob_start();
     </a>
 </div>
 
+<!-- Statistiques rapides -->
+<div class="row g-3 mb-4">
+    <div class="col-md-4">
+        <div class="card bg-primary text-white">
+            <div class="card-body">
+                <h6>Total Locataires</h6>
+                <h4><?= count($locataires) ?></h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card bg-success text-white">
+            <div class="card-body">
+                <h6>Avec CNI</h6>
+                <?php
+                $avecCNI = 0;
+                foreach ($locataires as $l) {
+                    if (!empty($l['cni'])) $avecCNI++;
+                }
+                ?>
+                <h4><?= $avecCNI ?></h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card bg-info text-white">
+            <div class="card-body">
+                <h6>Propriétés occupées</h6>
+                <?php
+                $proprietesOccupees = 0;
+                $seenProps = [];
+                foreach ($locataires as $l) {
+                    if (!empty($l['propriete_id']) && !in_array($l['propriete_id'], $seenProps)) {
+                        $proprietesOccupees++;
+                        $seenProps[] = $l['propriete_id'];
+                    }
+                }
+                ?>
+                <h4><?= $proprietesOccupees ?></h4>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Liste des locataires -->
 <div class="card">
     <div class="card-body p-0">
@@ -87,9 +131,9 @@ ob_start();
                             <?php endif; ?>
                         </td>
                         <td>
-                            <div class="btn-group btn-group-sm">
-                                <a href="modifier_locataire.php?id=<?= $loc['id'] ?>" class="btn btn-outline-primary">
-                                    <i class="bi bi-pencil"></i>
+                            <div class="btn-group btn-group-sm" role="group">
+                                <a href="quittance.php?id=<?= $loc['id'] ?>" class="btn btn-outline-info" title="Voir les paiements du locataire">
+                                    <i class="bi bi-receipt"></i> Paiements
                                 </a>
                                 <a href="locataires.php?delete=<?= $loc['id'] ?>" class="btn btn-outline-danger"
                                    onclick="return confirm('Êtes-vous sûr de vouloir supprimer ce locataire ?')">

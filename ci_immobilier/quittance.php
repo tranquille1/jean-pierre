@@ -137,11 +137,14 @@ ob_start();
     <?php if (!$isPrint): ?>
     <div class="container no-print my-4">
         <a href="quittances.php" class="btn btn-outline-secondary">
-            <i class="bi bi-arrow-left"></i> Retour
+            <i class="bi bi-arrow-left"></i> Retour à la liste
         </a>
         <button onclick="window.print()" class="btn btn-success ms-2">
-            <i class="bi bi-printer"></i> Imprimer
+            <i class="bi bi-printer"></i> Imprimer la quittance
         </button>
+        <a href="quittance.php?id=<?= $id ?>&print=1" class="btn btn-primary ms-2" target="_blank">
+            <i class="bi bi-file-earmark-pdf"></i> Ouvrir pour impression
+        </a>
     </div>
     <?php endif; ?>
     

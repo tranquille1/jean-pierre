@@ -31,19 +31,19 @@ ob_start();
 
 <div class="d-flex justify-content-between align-items-center mb-4">
     <h2><i class="bi bi-building"></i> Gestion des Propriétés</h2>
-    <a href="ajouter_propriete.php" class="btn btn-ci">
-        <i class="bi bi-plus-circle"></i> Nouvelle propriété
-    </a>
-</div>
-
-<!-- Filtres -->
-<div class="card mb-4">
-    <div class="card-body">
-        <div class="btn-group" role="group">
-            <a href="proprietes.php?filter=all" class="btn btn-outline-primary <?= $filter === 'all' ? 'active' : '' ?>">Toutes</a>
-            <a href="proprietes.php?filter=disponible" class="btn btn-outline-success <?= $filter === 'disponible' ? 'active' : '' ?>">Disponibles</a>
-            <a href="proprietes.php?filter=loue" class="btn btn-outline-danger <?= $filter === 'loue' ? 'active' : '' ?>">Louées</a>
-        </div>
+    <div>
+        <a href="proprietes.php?filter=all" class="btn btn-outline-secondary btn-sm me-1">
+            <i class="bi bi-list-ul"></i> Toutes
+        </a>
+        <a href="proprietes.php?filter=disponible" class="btn btn-outline-success btn-sm me-1">
+            <i class="bi bi-house-check"></i> Disponibles
+        </a>
+        <a href="proprietes.php?filter=loue" class="btn btn-outline-danger btn-sm me-1">
+            <i class="bi bi-house-x"></i> Louées
+        </a>
+        <a href="ajouter_propriete.php" class="btn btn-ci">
+            <i class="bi bi-plus-circle"></i> Nouvelle propriété
+        </a>
     </div>
 </div>
 
@@ -83,9 +83,9 @@ ob_start();
                 <?php endif; ?>
             </div>
             <div class="card-footer bg-white">
-                <div class="btn-group w-100">
-                    <a href="modifier_propriete.php?id=<?= $prop['id'] ?>" class="btn btn-sm btn-outline-primary">
-                        <i class="bi bi-pencil"></i> Modifier
+                <div class="btn-group w-100" role="group">
+                    <a href="quittance.php?id=<?= $prop['id'] ?>" class="btn btn-sm btn-outline-info" title="Voir les paiements liés">
+                        <i class="bi bi-receipt"></i> Paiements
                     </a>
                     <a href="proprietes.php?delete=<?= $prop['id'] ?>" class="btn btn-sm btn-outline-danger" 
                        onclick="return confirm('Êtes-vous sûr de vouloir supprimer cette propriété ?')">
