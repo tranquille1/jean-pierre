@@ -1,0 +1,118 @@
+/* CI Immobilier - Styles personnalisés */
+
+:root {
+    --ci-orange: #FF7900;
+    --ci-white: #FFFFFF;
+    --ci-green: #00A65E;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.card {
+    animation: fadeIn 0.3s ease-out;
+}
+
+/* Boutons personnalisés */
+.btn-ci {
+    background: linear-gradient(135deg, var(--ci-orange), var(--ci-green));
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-ci:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 121, 0, 0.4);
+    color: white;
+}
+
+/* Badges modes de paiement */
+.mode-paiement-badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    color: white;
+    font-size: 0.85em;
+    display: inline-block;
+    font-weight: 500;
+}
+
+/* Tableaux */
+.table-hover tbody tr:hover {
+    background-color: rgba(255, 121, 0, 0.05);
+}
+
+/* Cartes de statistiques */
+.stat-card {
+    border-left: 4px solid var(--ci-orange);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.1rem;
+    }
+    
+    .btn-group-responsive {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .btn-group-responsive .btn {
+        width: 100%;
+    }
+}
+
+/* Impression */
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    
+    .quittance, .quittance * {
+        visibility: visible;
+    }
+    
+    .quittance {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        box-shadow: none;
+        border: 2px solid #333;
+    }
+}
+
+/* Utilitaires */
+.text-ci-orange { color: var(--ci-orange); }
+.text-ci-green { color: var(--ci-green); }
+.bg-ci-orange { background-color: var(--ci-orange); }
+.bg-ci-green { background-color: var(--ci-green); }
+
+/* Formulaire */
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--ci-orange);
+    box-shadow: 0 0 0 0.2rem rgba(255, 121, 0, 0.25);
+}
+
+/* Alertes */
+.alert {
+    border-radius: 8px;
+    border-left: 4px solid;
+}
+
+.alert-success { border-left-color: var(--ci-green); }
+.alert-danger { border-left-color: #dc3545; }
+.alert-warning { border-left-color: #ffc107; }
+.alert-info { border-left-color: #17a2b8; }
