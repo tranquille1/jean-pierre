@@ -2,6 +2,21 @@
 
 Application web de gestion immobilière spécialement conçue pour la **Côte d'Ivoire**, développée en **PHP** avec MySQL.
 
+## ✅ Mises à jour récentes
+
+### 🖨️ Option d'impression améliorée
+- **Bouton "Imprimer la quittance"** sur chaque page de quittance
+- **Bouton "Ouvrir pour impression"** pour afficher dans un nouvel onglet optimisé
+- **Impression directe** depuis la liste des paiements et quittances
+- Format professionnel avec signatures et cachet
+
+### 🔘 Interface utilisateur révisée
+- **Tous les boutons fonctionnels** avec icônes et libellés clairs
+- **Groupes de boutons** avec `role="group"` pour une meilleure accessibilité
+- **Statistiques enrichies** sur les pages Locataires et Paiements
+- **Filtres intégrés** directement dans l'en-tête de la page Propriétés
+- **Navigation fluide** entre les pages
+
 ## ✨ Fonctionnalités
 
 ### 🏘️ Gestion des Propriétés
