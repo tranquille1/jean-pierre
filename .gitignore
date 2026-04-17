@@ -1,15 +1,11 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-
 # Dependencies
-vendor/
-composer.lock
+node_modules/
 
-# Logs and temp files
-*.log
-*.tmp
+# Build artifacts
+dist/
+build/
+target/
 
 # Environment
 .env
@@ -20,7 +16,38 @@ composer.lock
 .vscode/
 .idea/
 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+.venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Logs
+*.log
+
 # OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+
+# Testing
+coverage/
+htmlcov/
+.coverage
+*.coverage
+
+# Temporary files
+*.tmp
+*.temp
+*~
 ```
