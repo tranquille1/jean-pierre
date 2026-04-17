@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card">
+    <h2>💰 Liste des Paiements</h2>
+    <a href="/paiement/ajouter" class="btn btn-green" style="margin-bottom: 1rem;">➕ Enregistrer un paiement</a>
+    
+    {% if paiements %}
+    <table>
+        <thead>
+            <tr>
+                <th>Locataire</th>
+                <th>Montant</th>
+                <th>Type</th>
+                <th>Mode de paiement</th>
+                <th>Référence</th>
+                <th>Mois concerné</th>
+                <th>Date</th>
+                <th>Statut</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for paiement in paiements %}
+            <tr>
+                <td>{{ paiement.locataire.nom }} {{ paiement.locataire.prenom }}</td>
+                <td><strong>{{ "{:,.0f}".format(paiement.montant) }} FCFA</strong></td>
+                <td>{{ paiement.type_paiement }}</td>
+                <td>
+                    {% if 'Orange' in paiement.mode_paiement %}
+                    <span class="badge" style="background: #FF7900; color: white;">🟠 Orange Money</span>
+                    {% elif 'MTN' in paiement.mode_paiement %}
+                    <span class="badge" style="background: #FFCC00; color: black;">💛 MTN MoMo</span>
+                    {% elif 'Wave' in paiement.mode_paiement %}
+                    <span class="badge" style="background: #1DC4E8; color: white;">💙 Wave</span>
+                    {% elif 'Espèces' in paiement.mode_paiement %}
+                    <span class="badge" style="background: #28a745; color: white;">💵 Espèces</span>
+                    {% else %}
+                    <span class="badge badge-info">{{ paiement.mode_paiement }}</span>
+                    {% endif %}
+                </td>
+                <td>{{ paiement.reference_transaction or 'N/A' }}</td>
+                <td>{{ paiement.mois_concerne }}</td>
+                <td>{{ paiement.date_paiement.strftime('%d/%m/%Y %H:%M') }}</td>
+                <td>
+                    {% if paiement.statut == 'Validé' %}
+                    <span class="badge badge-success">✓ Validé</span>
+                    {% elif paiement.statut == 'En attente' %}
+                    <span class="badge badge-warning">⏳ En attente</span>
+                    {% else %}
+                    <span class="badge" style="background: #dc3545; color: white;">✗ Rejeté</span>
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+    <p>Aucun paiement enregistré.</p>
+    {% endif %}
+</div>
+{% endblock %}

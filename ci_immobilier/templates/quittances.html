@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card">
+    <h2>📄 Liste des Quittances</h2>
+    
+    {% if quittances %}
+    <table>
+        <thead>
+            <tr>
+                <th>Numéro</th>
+                <th>Locataire</th>
+                <th>Montant</th>
+                <th>Type</th>
+                <th>Mois concerné</th>
+                <th>Date d'émission</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for quittance in quittances %}
+            <tr>
+                <td><strong>{{ quittance.numero_quittance }}</strong></td>
+                <td>{{ quittance.paiement.locataire.nom }} {{ quittance.paiement.locataire.prenom }}</td>
+                <td>{{ "{:,.0f}".format(quittance.paiement.montant) }} FCFA</td>
+                <td>{{ quittance.paiement.type_paiement }}</td>
+                <td>{{ quittance.paiement.mois_concerne }}</td>
+                <td>{{ quittance.date_emission.strftime('%d/%m/%Y') }}</td>
+                <td>
+                    <a href="/quittance/{{ quittance.id }}" class="btn btn-green" style="padding: 0.5rem 1rem; font-size: 0.9rem;">👁️ Voir</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+    <p>Aucune quittance générée.</p>
+    {% endif %}
+</div>
+{% endblock %}

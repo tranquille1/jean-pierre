@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="card">
+    <h2>➕ Enregistrer un Paiement</h2>
+    <form method="POST">
+        <label for="locataire_id">Locataire *</label>
+        <select id="locataire_id" name="locataire_id" required>
+            <option value="">Sélectionner un locataire</option>
+            {% for locataire in locataires %}
+            <option value="{{ locataire.id }}">{{ locataire.nom }} {{ locataire.prenom }} - {{ locataire.telephone }}</option>
+            {% endfor %}
+        </select>
+        
+        <label for="montant">Montant (FCFA) *</label>
+        <input type="number" id="montant" name="montant" required placeholder="Ex: 150000">
+        
+        <label for="type_paiement">Type de paiement *</label>
+        <select id="type_paiement" name="type_paiement" required>
+            <option value="Loyer">Loyer</option>
+            <option value="Caution">Caution</option>
+            <option value="Électricité CIE">Électricité (CIE)</option>
+            <option value="Eau SODECI">Eau (SODECI)</option>
+            <option value="Frais d'entretien">Frais d'entretien</option>
+            <option value="Autre">Autre</option>
+        </select>
+        
+        <label for="mois_concerne">Mois concerné *</label>
+        <input type="text" id="mois_concerne" name="mois_concerne" required placeholder="Ex: Janvier 2024">
+        
+        <label for="mode_paiement">Mode de paiement *</label>
+        <select id="mode_paiement" name="mode_paiement" required>
+            <option value="">Sélectionner un mode de paiement</option>
+            <option value="Orange Money">🟠 Orange Money</option>
+            <option value="MTN MoMo">💛 MTN MoMo</option>
+            <option value="Wave">💙 Wave</option>
+            <option value="Espèces">💵 Espèces</option>
+            <option value="Chèque">📝 Chèque</option>
+            <option value="Virement bancaire">🏦 Virement bancaire</option>
+        </select>
+        
+        <label for="reference_transaction">Référence transaction (ID Mobile Money)</label>
+        <input type="text" id="reference_transaction" name="reference_transaction" placeholder="Ex: OM123456789, MTN987654...">
+        <small style="color: #666; display: block; margin-top: -0.5rem; margin-bottom: 1rem;">Pour les paiements Mobile Money, entrez l'ID de transaction reçu par SMS</small>
+        
+        <label for="notes">Notes / Observations</label>
+        <textarea id="notes" name="notes" rows="3" placeholder="Ex: Retard de paiement, acompte, etc."></textarea>
+        
+        <button type="submit" class="btn btn-green">Enregistrer le paiement et générer quittance</button>
+        <a href="/paiements" class="btn" style="background: #6c757d;">Annuler</a>
+    </form>
+</div>
+{% endblock %}
