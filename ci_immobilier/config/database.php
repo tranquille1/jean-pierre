@@ -18,7 +18,7 @@ $communes = [
 
 // Types de logements
 $types_logement = [
-    'Studio', 'Appartement', 'Villa', 'Duplex', 
+    'Studio', 'Appartement', 'Villa', 'Duplex',
     'Chambre', 'Local commercial', 'Terrain'
 ];
 
@@ -60,7 +60,7 @@ function getDBConnection() {
 // Initialiser la base de données
 function initDatabase() {
     $pdo = getDBConnection();
-    
+
     // Table propriétés
     $pdo->exec("CREATE TABLE IF NOT EXISTS proprietes (
         id INT AUTO_INCREMENT PRIMARY KEY,
@@ -76,7 +76,7 @@ function initDatabase() {
         proprietaire_telephone VARCHAR(20),
         date_creation TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
-    
+
     // Table locataires
     $pdo->exec("CREATE TABLE IF NOT EXISTS locataires (
         id INT AUTO_INCREMENT PRIMARY KEY,
@@ -91,7 +91,7 @@ function initDatabase() {
         propriete_id INT,
         FOREIGN KEY (propriete_id) REFERENCES proprietes(id) ON DELETE SET NULL
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
-    
+
     // Table paiements
     $pdo->exec("CREATE TABLE IF NOT EXISTS paiements (
         id INT AUTO_INCREMENT PRIMARY KEY,
@@ -108,8 +108,20 @@ function initDatabase() {
         FOREIGN KEY (locataire_id) REFERENCES locataires(id) ON DELETE CASCADE,
         FOREIGN KEY (propriete_id) REFERENCES proprietes(id) ON DELETE SET NULL
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
-    
+
+    // Table quittances avec token de vérification et QR Code
+    $pdo->exec("CREATE TABLE IF NOT EXISTS quittances (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        paiement_id INT NOT NULL,
+        numero_quittance VARCHAR(50) UNIQUE NOT NULL,
+        token_verification VARCHAR(64) UNIQUE NOT NULL,
+        date_generation TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        verified BOOLEAN DEFAULT FALSE,
+        FOREIGN KEY (paiement_id) REFERENCES paiements(id) ON DELETE CASCADE
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4");
+
     // Ajouter un index pour les recherches
     $pdo->exec("CREATE INDEX IF NOT EXISTS idx_statut ON proprietes(statut)");
     $pdo->exec("CREATE INDEX IF NOT EXISTS idx_commune ON proprietes(commune)");
+    $pdo->exec("CREATE INDEX IF NOT EXISTS idx_token ON quittances(token_verification)");
 }

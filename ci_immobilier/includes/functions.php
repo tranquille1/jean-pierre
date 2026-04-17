@@ -61,3 +61,22 @@ function isPost() {
 function cleanInput($data) {
     return htmlspecialchars(strip_tags(trim($data)));
 }
+
+// Générer un token unique pour la vérification
+function generateToken() {
+    return bin2hex(random_bytes(16));
+}
+
+// Générer le lien de vérification avec QR Code
+function generateVerificationLink($quittanceId, $token) {
+    $baseUrl = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
+    $path = dirname($_SERVER['SCRIPT_NAME']);
+    $basePath = ($path === '/' || $path === '\\') ? '' : $path;
+    return $baseUrl . $basePath . '/verify.php?id=' . $quittanceId . '&token=' . $token;
+}
+
+// Obtenir l'URL du QR Code via API publique
+function getQRCodeUrl($data) {
+    $encodedData = urlencode($data);
+    return "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data={$encodedData}";
+}
