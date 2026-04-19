@@ -1,0 +1,201 @@
+id,titre,type,commune,nb_pieces,superficie,prix_loyer,statut,date_creation
+1,Appartement à Plateau,Appartement,Plateau,3,89.23,553823.0,Loué,2025-12-23 09:08:04.341723
+2,Appartement à Koumassi,Appartement,Koumassi,4,117.59,150822.0,Loué,2025-04-27 09:08:04.341747
+3,Local commercial à Plateau,Local commercial,Plateau,2,76.47,852831.0,Loué,2025-09-14 09:08:04.341759
+4,Villa à Yopougon,Villa,Yopougon,6,180.19,350518.0,Loué,2026-03-04 09:08:04.341767
+5,Appartement à Abobo,Appartement,Abobo,3,105.79,135896.0,Disponible,2025-05-10 09:08:04.341774
+6,Chambre à Plateau,Chambre,Plateau,1,30.24,278338.0,Disponible,2025-06-02 09:08:04.341784
+7,Villa à Plateau,Villa,Plateau,6,226.8,1208712.0,Disponible,2025-10-03 09:08:04.341791
+8,Local commercial à Plateau,Local commercial,Plateau,2,66.44,729121.0,Loué,2026-03-07 09:08:04.341797
+9,Chambre à Anyama,Chambre,Anyama,1,26.99,60864.0,Loué,2026-04-13 09:08:04.341803
+10,Villa à Adjamé,Villa,Adjamé,5,159.39,293332.0,Loué,2025-07-02 09:08:04.341811
+11,Appartement à Songon,Appartement,Songon,5,148.25,102690.0,Disponible,2026-02-10 09:08:04.341817
+12,Chambre à Attécoubé,Chambre,Attécoubé,1,37.95,69294.0,Loué,2025-04-26 09:08:04.341823
+13,Duplex à Marcory,Duplex,Marcory,7,216.99,557407.0,Loué,2026-01-04 09:08:04.341829
+14,Duplex à Marcory,Duplex,Marcory,6,197.53,553743.0,Loué,2025-06-30 09:08:04.341835
+15,Local commercial à Abobo,Local commercial,Abobo,3,99.65,157546.0,Disponible,2026-01-03 09:08:04.341840
+16,Studio à Abobo,Studio,Abobo,1,36.47,107923.0,Loué,2025-10-20 09:08:04.341846
+17,Appartement à Cocody,Appartement,Cocody,5,140.84,460520.0,Disponible,2025-12-02 09:08:04.341852
+18,Duplex à Anyama,Duplex,Anyama,6,202.97,210900.0,Loué,2025-10-03 09:08:04.341858
+19,Local commercial à Marcory,Local commercial,Marcory,1,35.44,413644.0,Loué,2025-05-05 09:08:04.341880
+20,Local commercial à Bingerville,Local commercial,Bingerville,3,75.27,201838.0,Disponible,2025-04-18 09:08:04.341887
+21,Local commercial à Yopougon,Local commercial,Yopougon,1,37.26,207263.0,Loué,2026-04-14 09:08:04.341892
+22,Villa à Cocody,Villa,Cocody,4,126.99,811576.0,Loué,2025-11-12 09:08:04.341898
+23,Local commercial à Marcory,Local commercial,Marcory,2,63.66,499382.0,Disponible,2026-02-21 09:08:04.341904
+24,Chambre à Attécoubé,Chambre,Attécoubé,1,32.34,67700.0,Disponible,2025-11-01 09:08:04.341909
+25,Studio à Attécoubé,Studio,Attécoubé,1,27.56,115274.0,Disponible,2025-06-02 09:08:04.341914
+26,Villa à Songon,Villa,Songon,7,207.39,206657.0,Disponible,2025-08-26 09:08:04.341920
+27,Local commercial à Marcory,Local commercial,Marcory,1,39.67,486138.0,Disponible,2025-10-19 09:08:04.341926
+28,Villa à Plateau,Villa,Plateau,7,264.21,1173607.0,Loué,2026-04-09 09:08:04.341932
+29,Chambre à Attécoubé,Chambre,Attécoubé,1,26.81,61409.0,Loué,2025-08-24 09:08:04.341937
+30,Duplex à Anyama,Duplex,Anyama,6,158.59,215780.0,Loué,2025-07-06 09:08:04.341945
+31,Local commercial à Yopougon,Local commercial,Yopougon,3,83.63,210067.0,Loué,2025-05-05 09:08:04.341950
+32,Chambre à Adjamé,Chambre,Adjamé,1,35.6,74780.0,Disponible,2026-03-23 09:08:04.341956
+33,Villa à Anyama,Villa,Anyama,5,133.03,305126.0,Disponible,2025-07-28 09:08:04.341961
+34,Duplex à Adjamé,Duplex,Adjamé,5,180.81,254857.0,Loué,2025-11-05 09:08:04.341967
+35,Villa à Koumassi,Villa,Koumassi,4,118.44,279033.0,Loué,2025-11-28 09:08:04.341973
+36,Chambre à Plateau,Chambre,Plateau,1,33.25,220220.0,Disponible,2026-03-09 09:08:04.341979
+37,Villa à Marcory,Villa,Marcory,7,176.49,887615.0,Loué,2026-03-09 09:08:04.341988
+38,Appartement à Abobo,Appartement,Abobo,3,102.83,136900.0,Disponible,2026-04-13 09:08:04.341997
+39,Local commercial à Adjamé,Local commercial,Adjamé,1,32.05,203020.0,Loué,2025-08-07 09:08:04.342003
+40,Appartement à Cocody,Appartement,Cocody,5,137.78,365312.0,Loué,2025-07-15 09:08:04.342008
+41,Villa à Marcory,Villa,Marcory,6,163.74,615518.0,Loué,2025-05-14 09:08:04.342014
+42,Chambre à Port-Bouët,Chambre,Port-Bouët,1,38.09,105118.0,Loué,2026-04-09 09:08:04.342019
+43,Villa à Port-Bouët,Villa,Port-Bouët,8,254.88,441126.0,Loué,2025-12-26 09:08:04.342025
+44,Duplex à Songon,Duplex,Songon,7,194.81,176187.0,Disponible,2025-07-24 09:08:04.342036
+45,Local commercial à Port-Bouët,Local commercial,Port-Bouët,3,78.37,289426.0,Loué,2025-12-20 09:08:04.342043
+46,Studio à Attécoubé,Studio,Attécoubé,1,37.4,111237.0,Loué,2025-12-20 09:08:04.342050
+47,Local commercial à Adjamé,Local commercial,Adjamé,3,95.94,243713.0,Loué,2026-03-23 09:08:04.342058
+48,Chambre à Attécoubé,Chambre,Attécoubé,1,32.8,65032.0,Loué,2025-08-13 09:08:04.342066
+49,Studio à Adjamé,Studio,Adjamé,1,33.86,122727.0,Loué,2026-02-11 09:08:04.342076
+50,Duplex à Songon,Duplex,Songon,5,188.09,207439.0,Loué,2026-04-03 09:08:04.342085
+51,Local commercial à Cocody,Local commercial,Cocody,1,31.16,646991.0,Loué,2026-04-11 09:08:04.342093
+52,Duplex à Plateau,Duplex,Plateau,4,141.61,868330.0,Loué,2025-10-07 09:08:04.342098
+53,Local commercial à Adjamé,Local commercial,Adjamé,3,109.08,177327.0,Disponible,2025-12-05 09:08:04.342104
+54,Chambre à Koumassi,Chambre,Koumassi,1,29.66,60056.0,Loué,2025-05-13 09:08:04.342109
+55,Chambre à Anyama,Chambre,Anyama,1,27.59,44683.0,Disponible,2026-03-31 09:08:04.342115
+56,Local commercial à Cocody,Local commercial,Cocody,3,102.22,631146.0,Loué,2025-11-01 09:08:04.342120
+57,Local commercial à Cocody,Local commercial,Cocody,2,70.47,489499.0,Loué,2025-08-21 09:08:04.342127
+58,Chambre à Songon,Chambre,Songon,1,34.19,47815.0,Loué,2025-05-02 09:08:04.342132
+59,Local commercial à Treichville,Local commercial,Treichville,3,83.02,241598.0,Loué,2025-08-11 09:08:04.342138
+60,Chambre à Treichville,Chambre,Treichville,1,38.53,110539.0,Disponible,2026-01-20 09:08:04.342143
+61,Villa à Bingerville,Villa,Bingerville,7,261.03,403462.0,Loué,2025-09-21 09:08:04.342149
+62,Studio à Attécoubé,Studio,Attécoubé,1,39.51,111301.0,Disponible,2025-07-22 09:08:04.342154
+63,Appartement à Cocody,Appartement,Cocody,4,121.41,463819.0,Disponible,2026-03-04 09:08:04.342160
+64,Duplex à Cocody,Duplex,Cocody,5,161.67,816837.0,Loué,2025-10-08 09:08:04.342165
+65,Studio à Marcory,Studio,Marcory,1,28.59,204381.0,Loué,2025-07-04 09:08:04.342170
+66,Duplex à Bingerville,Duplex,Bingerville,8,305.76,319264.0,Disponible,2025-07-09 09:08:04.342177
+67,Local commercial à Cocody,Local commercial,Cocody,1,39.42,577379.0,Loué,2025-11-13 09:08:04.342182
+68,Appartement à Treichville,Appartement,Treichville,2,56.69,188493.0,Loué,2025-10-10 09:08:04.342188
+69,Local commercial à Attécoubé,Local commercial,Attécoubé,3,81.51,178791.0,Loué,2025-08-14 09:08:04.342196
+70,Duplex à Port-Bouët,Duplex,Port-Bouët,4,155.83,325004.0,Disponible,2025-06-20 09:08:04.342204
+71,Local commercial à Anyama,Local commercial,Anyama,3,79.8,139121.0,Loué,2025-07-22 09:08:04.342210
+72,Duplex à Bingerville,Duplex,Bingerville,7,205.56,313338.0,Disponible,2025-12-07 09:08:04.342216
+73,Duplex à Abobo,Duplex,Abobo,7,204.92,204818.0,Loué,2026-01-17 09:08:04.342221
+74,Villa à Anyama,Villa,Anyama,4,158.53,318993.0,Loué,2025-06-30 09:08:04.342227
+75,Appartement à Marcory,Appartement,Marcory,5,187.46,246419.0,Disponible,2025-12-09 09:08:04.342234
+76,Local commercial à Plateau,Local commercial,Plateau,2,60.01,845350.0,Loué,2026-02-17 09:08:04.342243
+77,Duplex à Abobo,Duplex,Abobo,8,273.86,205024.0,Disponible,2026-04-13 09:08:04.342248
+78,Local commercial à Cocody,Local commercial,Cocody,1,30.75,664257.0,Loué,2025-08-02 09:08:04.342254
+79,Villa à Cocody,Villa,Cocody,4,124.49,898408.0,Loué,2026-04-18 09:08:04.342260
+80,Appartement à Port-Bouët,Appartement,Port-Bouët,5,181.99,198555.0,Loué,2025-08-14 09:08:04.342266
+81,Studio à Plateau,Studio,Plateau,1,32.11,441501.0,Disponible,2025-12-08 09:08:04.342271
+82,Studio à Koumassi,Studio,Koumassi,1,32.62,108433.0,Loué,2025-11-06 09:08:04.342276
+83,Studio à Attécoubé,Studio,Attécoubé,1,38.9,118364.0,Loué,2025-06-02 09:08:04.342281
+84,Chambre à Treichville,Chambre,Treichville,1,30.62,102453.0,Loué,2026-02-25 09:08:04.342287
+85,Chambre à Songon,Chambre,Songon,1,34.04,54042.0,Disponible,2025-05-24 09:08:04.342292
+86,Studio à Treichville,Studio,Treichville,1,39.38,175809.0,Disponible,2026-02-28 09:08:04.342297
+87,Chambre à Cocody,Chambre,Cocody,1,39.98,236267.0,Disponible,2026-03-15 09:08:04.342302
+88,Duplex à Bingerville,Duplex,Bingerville,4,154.7,231783.0,Loué,2025-12-16 09:08:04.342309
+89,Local commercial à Treichville,Local commercial,Treichville,1,37.72,257761.0,Loué,2025-12-27 09:08:04.342315
+90,Appartement à Attécoubé,Appartement,Attécoubé,5,160.67,146166.0,Loué,2025-09-25 09:08:04.342320
+91,Duplex à Marcory,Duplex,Marcory,5,125.92,634055.0,Disponible,2026-02-18 09:08:04.342326
+92,Appartement à Bingerville,Appartement,Bingerville,3,91.63,131930.0,Loué,2025-11-03 09:08:04.342331
+93,Studio à Songon,Studio,Songon,1,28.23,64337.0,Loué,2025-12-19 09:08:04.342338
+94,Studio à Yopougon,Studio,Yopougon,1,38.69,101576.0,Loué,2025-09-10 09:08:04.342343
+95,Studio à Plateau,Studio,Plateau,1,35.2,364523.0,Loué,2025-07-09 09:08:04.342348
+96,Villa à Songon,Villa,Songon,8,214.35,229811.0,Loué,2025-09-23 09:08:04.342354
+97,Villa à Plateau,Villa,Plateau,4,108.16,1480694.0,Loué,2026-03-31 09:08:04.342359
+98,Chambre à Port-Bouët,Chambre,Port-Bouët,1,37.88,96657.0,Disponible,2025-09-23 09:08:04.342365
+99,Duplex à Songon,Duplex,Songon,5,170.46,203739.0,Loué,2025-11-04 09:08:04.342370
+100,Duplex à Port-Bouët,Duplex,Port-Bouët,5,199.8,298311.0,Disponible,2025-06-25 09:08:04.342376
+101,Villa à Treichville,Villa,Treichville,8,230.33,421401.0,Loué,2025-07-24 09:08:04.342382
+102,Chambre à Attécoubé,Chambre,Attécoubé,1,31.27,59605.0,Disponible,2025-05-21 09:08:04.342387
+103,Studio à Adjamé,Studio,Adjamé,1,32.96,91381.0,Loué,2025-09-08 09:08:04.342392
+104,Chambre à Koumassi,Chambre,Koumassi,1,34.29,64428.0,Loué,2025-11-14 09:08:04.342397
+105,Villa à Bingerville,Villa,Bingerville,5,166.47,399438.0,Disponible,2026-04-15 09:08:04.342404
+106,Appartement à Attécoubé,Appartement,Attécoubé,4,106.05,155430.0,Disponible,2025-04-22 09:08:04.342410
+107,Appartement à Cocody,Appartement,Cocody,4,108.98,371668.0,Disponible,2025-07-26 09:08:04.342416
+108,Duplex à Marcory,Duplex,Marcory,6,183.7,604759.0,Loué,2025-08-23 09:08:04.342423
+109,Local commercial à Treichville,Local commercial,Treichville,1,27.39,336194.0,Disponible,2025-11-07 09:08:04.342428
+110,Studio à Marcory,Studio,Marcory,1,34.54,260806.0,Loué,2025-10-27 09:08:04.342433
+111,Studio à Adjamé,Studio,Adjamé,1,34.18,93140.0,Loué,2026-03-02 09:08:04.342439
+112,Local commercial à Koumassi,Local commercial,Koumassi,1,25.67,160289.0,Loué,2025-08-15 09:08:04.342444
+113,Villa à Bingerville,Villa,Bingerville,4,123.77,387254.0,Loué,2025-07-28 09:08:04.342450
+114,Appartement à Treichville,Appartement,Treichville,3,113.82,222646.0,Loué,2025-07-01 09:08:04.342455
+115,Chambre à Treichville,Chambre,Treichville,1,38.88,99468.0,Loué,2025-08-29 09:08:04.342461
+116,Local commercial à Abobo,Local commercial,Abobo,3,114.56,204544.0,Disponible,2025-05-16 09:08:04.342466
+117,Chambre à Yopougon,Chambre,Yopougon,1,26.52,63749.0,Loué,2025-08-03 09:08:04.342471
+118,Duplex à Songon,Duplex,Songon,6,158.77,153795.0,Loué,2025-07-18 09:08:04.342477
+119,Chambre à Koumassi,Chambre,Koumassi,1,34.35,68162.0,Loué,2025-05-06 09:08:04.342482
+120,Local commercial à Attécoubé,Local commercial,Attécoubé,1,38.2,225931.0,Disponible,2026-03-31 09:08:04.342488
+121,Villa à Abobo,Villa,Abobo,5,145.07,293592.0,Loué,2025-07-04 09:08:04.342494
+122,Duplex à Yopougon,Duplex,Yopougon,7,216.42,257739.0,Loué,2025-11-25 09:08:04.342499
+123,Appartement à Plateau,Appartement,Plateau,5,193.13,474870.0,Loué,2025-07-29 09:08:04.342505
+124,Studio à Treichville,Studio,Treichville,1,25.38,142893.0,Loué,2026-03-15 09:08:04.342510
+125,Duplex à Anyama,Duplex,Anyama,4,155.13,206694.0,Loué,2025-09-16 09:08:04.342516
+126,Duplex à Anyama,Duplex,Anyama,7,256.25,163089.0,Disponible,2025-10-07 09:08:04.342521
+127,Studio à Koumassi,Studio,Koumassi,1,37.57,107941.0,Loué,2025-12-12 09:08:04.342528
+128,Appartement à Anyama,Appartement,Anyama,4,125.26,100704.0,Disponible,2025-07-07 09:08:04.342533
+129,Villa à Adjamé,Villa,Adjamé,6,176.22,344707.0,Loué,2025-05-09 09:08:04.342539
+130,Appartement à Cocody,Appartement,Cocody,2,79.1,420103.0,Loué,2026-04-15 09:08:04.342545
+131,Chambre à Port-Bouët,Chambre,Port-Bouët,1,35.72,105610.0,Disponible,2025-10-10 09:08:04.342550
+132,Appartement à Attécoubé,Appartement,Attécoubé,2,62.27,161387.0,Loué,2025-05-08 09:08:04.342556
+133,Duplex à Attécoubé,Duplex,Attécoubé,6,205.26,219643.0,Loué,2025-05-18 09:08:04.342564
+134,Villa à Koumassi,Villa,Koumassi,5,171.25,377821.0,Loué,2026-01-18 09:08:04.342569
+135,Studio à Plateau,Studio,Plateau,1,34.94,453422.0,Loué,2025-12-03 09:08:04.342574
+136,Appartement à Marcory,Appartement,Marcory,5,167.75,317993.0,Loué,2026-04-10 09:08:04.342580
+137,Studio à Marcory,Studio,Marcory,1,31.25,272206.0,Disponible,2025-10-31 09:08:04.342585
+138,Chambre à Koumassi,Chambre,Koumassi,1,32.96,60134.0,Loué,2025-07-23 09:08:04.342590
+139,Duplex à Yopougon,Duplex,Yopougon,7,266.83,242217.0,Loué,2025-10-10 09:08:04.342596
+140,Villa à Treichville,Villa,Treichville,6,178.43,593246.0,Loué,2026-03-18 09:08:04.342601
+141,Duplex à Songon,Duplex,Songon,5,162.72,154052.0,Loué,2025-08-02 09:08:04.342607
+142,Chambre à Yopougon,Chambre,Yopougon,1,32.33,89044.0,Loué,2025-08-18 09:08:04.342612
+143,Appartement à Anyama,Appartement,Anyama,2,64.4,122575.0,Disponible,2025-11-01 09:08:04.342618
+144,Local commercial à Yopougon,Local commercial,Yopougon,2,71.73,257035.0,Disponible,2025-09-20 09:08:04.342623
+145,Duplex à Plateau,Duplex,Plateau,4,147.69,800708.0,Disponible,2026-03-02 09:08:04.342629
+146,Local commercial à Anyama,Local commercial,Anyama,1,37.15,151707.0,Disponible,2025-09-08 09:08:04.342644
+147,Duplex à Abobo,Duplex,Abobo,6,201.62,176467.0,Loué,2026-04-13 09:08:04.342651
+148,Appartement à Plateau,Appartement,Plateau,2,60.97,452844.0,Disponible,2025-12-13 09:08:04.342657
+149,Appartement à Anyama,Appartement,Anyama,2,52.17,108583.0,Disponible,2026-02-03 09:08:04.342662
+150,Villa à Treichville,Villa,Treichville,8,241.11,459758.0,Loué,2025-09-11 09:08:04.342668
+151,Appartement à Cocody,Appartement,Cocody,5,184.02,364003.0,Disponible,2025-07-16 09:08:04.342673
+152,Local commercial à Marcory,Local commercial,Marcory,2,73.08,524099.0,Disponible,2025-10-07 09:08:04.342679
+153,Studio à Yopougon,Studio,Yopougon,1,27.71,116055.0,Loué,2025-12-29 09:08:04.342684
+154,Studio à Bingerville,Studio,Bingerville,1,27.56,148154.0,Loué,2025-10-29 09:08:04.342689
+155,Studio à Plateau,Studio,Plateau,1,35.06,404664.0,Loué,2025-09-02 09:08:04.342695
+156,Local commercial à Attécoubé,Local commercial,Attécoubé,3,106.56,188053.0,Disponible,2025-08-29 09:08:04.342700
+157,Chambre à Cocody,Chambre,Cocody,1,27.71,239927.0,Disponible,2025-12-12 09:08:04.342707
+158,Appartement à Abobo,Appartement,Abobo,4,149.86,135099.0,Loué,2025-09-27 09:08:04.342712
+159,Studio à Bingerville,Studio,Bingerville,1,25.68,124128.0,Disponible,2025-08-24 09:08:04.342718
+160,Appartement à Attécoubé,Appartement,Attécoubé,3,77.65,135934.0,Disponible,2026-04-08 09:08:04.342723
+161,Local commercial à Cocody,Local commercial,Cocody,3,96.58,639515.0,Loué,2026-03-19 09:08:04.342729
+162,Local commercial à Abobo,Local commercial,Abobo,2,62.02,191179.0,Loué,2025-05-13 09:08:04.342734
+163,Appartement à Attécoubé,Appartement,Attécoubé,5,131.33,146921.0,Loué,2025-12-08 09:08:04.342741
+164,Villa à Bingerville,Villa,Bingerville,5,155.0,457437.0,Loué,2025-05-15 09:08:04.342746
+165,Duplex à Yopougon,Duplex,Yopougon,7,176.79,304487.0,Loué,2026-02-09 09:08:04.342752
+166,Studio à Treichville,Studio,Treichville,1,37.57,166635.0,Loué,2026-02-26 09:08:04.342762
+167,Chambre à Cocody,Chambre,Cocody,1,33.68,216981.0,Loué,2025-10-04 09:08:04.342768
+168,Villa à Marcory,Villa,Marcory,5,162.38,851568.0,Loué,2025-04-20 09:08:04.342775
+169,Local commercial à Yopougon,Local commercial,Yopougon,2,60.06,189320.0,Loué,2025-07-30 09:08:04.342782
+170,Studio à Bingerville,Studio,Bingerville,1,29.95,137419.0,Loué,2025-07-07 09:08:04.342787
+171,Chambre à Plateau,Chambre,Plateau,1,38.53,225601.0,Disponible,2025-08-25 09:08:04.342793
+172,Studio à Marcory,Studio,Marcory,1,28.73,200385.0,Loué,2025-06-26 09:08:04.342798
+173,Villa à Plateau,Villa,Plateau,4,137.43,1182694.0,Loué,2025-11-29 09:08:04.342804
+174,Local commercial à Marcory,Local commercial,Marcory,3,103.99,408561.0,Disponible,2025-06-04 09:08:04.342810
+175,Duplex à Attécoubé,Duplex,Attécoubé,4,147.88,198444.0,Loué,2025-06-03 09:08:04.342816
+176,Chambre à Adjamé,Chambre,Adjamé,1,28.35,63859.0,Loué,2025-06-11 09:08:04.342821
+177,Studio à Port-Bouët,Studio,Port-Bouët,1,32.62,151400.0,Disponible,2026-03-09 09:08:04.342827
+178,Chambre à Abobo,Chambre,Abobo,1,34.65,59633.0,Loué,2025-12-04 09:08:04.342832
+179,Duplex à Marcory,Duplex,Marcory,7,194.76,533598.0,Disponible,2025-05-09 09:08:04.342837
+180,Chambre à Abobo,Chambre,Abobo,1,39.35,51081.0,Disponible,2025-08-29 09:08:04.342843
+181,Villa à Adjamé,Villa,Adjamé,4,151.03,346067.0,Loué,2026-04-10 09:08:04.342848
+182,Duplex à Bingerville,Duplex,Bingerville,5,126.66,309860.0,Loué,2025-05-15 09:08:04.342854
+183,Chambre à Port-Bouët,Chambre,Port-Bouët,1,35.15,92439.0,Loué,2025-11-12 09:08:04.342859
+184,Chambre à Songon,Chambre,Songon,1,37.03,59837.0,Loué,2025-08-25 09:08:04.342874
+185,Duplex à Yopougon,Duplex,Yopougon,4,152.61,243346.0,Loué,2026-02-06 09:08:04.342882
+186,Studio à Adjamé,Studio,Adjamé,1,32.72,125666.0,Loué,2025-05-21 09:08:04.342892
+187,Chambre à Songon,Chambre,Songon,1,33.77,46774.0,Loué,2026-03-15 09:08:04.342897
+188,Villa à Attécoubé,Villa,Attécoubé,7,205.14,295300.0,Loué,2025-08-05 09:08:04.342902
+189,Local commercial à Marcory,Local commercial,Marcory,3,98.72,366472.0,Loué,2025-12-05 09:08:04.342908
+190,Studio à Yopougon,Studio,Yopougon,1,30.52,137788.0,Loué,2025-10-03 09:08:04.342913
+191,Villa à Port-Bouët,Villa,Port-Bouët,7,242.83,422922.0,Loué,2025-07-29 09:08:04.342920
+192,Chambre à Treichville,Chambre,Treichville,1,26.31,82660.0,Loué,2025-10-24 09:08:04.342925
+193,Duplex à Treichville,Duplex,Treichville,5,132.77,410246.0,Loué,2025-07-27 09:08:04.342931
+194,Local commercial à Yopougon,Local commercial,Yopougon,1,27.83,217613.0,Loué,2025-04-19 09:08:04.342937
+195,Villa à Koumassi,Villa,Koumassi,7,185.7,263672.0,Disponible,2025-06-30 09:08:04.342942
+196,Studio à Bingerville,Studio,Bingerville,1,31.88,139760.0,Loué,2025-10-05 09:08:04.342947
+197,Villa à Plateau,Villa,Plateau,7,265.08,1169599.0,Disponible,2026-04-09 09:08:04.342954
+198,Local commercial à Abobo,Local commercial,Abobo,1,26.38,181815.0,Disponible,2025-07-20 09:08:04.342960
+199,Appartement à Attécoubé,Appartement,Attécoubé,4,159.02,121505.0,Loué,2025-04-22 09:08:04.342965
+200,Local commercial à Plateau,Local commercial,Plateau,2,52.44,699994.0,Disponible,2025-04-19 09:08:04.342971
